@@ -1,0 +1,20 @@
+PODS:
+  - Tagged (0.4.0)
+  - TaggedMoney (0.4.0):
+    - Tagged (= 0.4.0)
+  - TaggedTime (0.4.0):
+    - Tagged (~> 0.4.0)
+
+DEPENDENCIES:
+  - Tagged (~> 0.4)
+  - TaggedMoney (~> 0.4)
+  - TaggedTime (~> 0.4)
+
+SPEC CHECKSUMS:
+  Tagged: a6babffe08b180c499a7a422661621bd4f330840
+  TaggedMoney: 92c62ac61a18cd187e71ce485fc5f5e4961b9a24
+  TaggedTime: 7ca04e5a182d30c7077d37a543f458ad0a12ef01
+
+PODFILE CHECKSUM: f79e140975b338f4fc508f6a67fa73ff3e8e2aea
+
+COCOAPODS: 1.4.0

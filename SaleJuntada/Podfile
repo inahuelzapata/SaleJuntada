@@ -1,0 +1,14 @@
+platform :ios, '11.0'
+
+target 'SaleJuntada' do
+  use_frameworks!
+	pod 'Tagged', '~> 0.4'
+	pod 'TaggedMoney', '~> 0.4'
+	pod 'TaggedTime', '~> 0.4'
+
+  target 'SaleJuntadaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

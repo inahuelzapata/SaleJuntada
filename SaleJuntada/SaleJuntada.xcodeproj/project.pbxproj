@@ -13,6 +13,8 @@
 		2A5FE7E722763A9900920517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FE7E622763A9900920517 /* Assets.xcassets */; };
 		2A5FE7EA22763A9900920517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FE7E822763A9900920517 /* LaunchScreen.storyboard */; };
 		2A5FE7F522763A9900920517 /* SaleJuntadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE7F422763A9900920517 /* SaleJuntadaTests.swift */; };
+		95212567010BFA3DD9E16661 /* Pods_SaleJuntadaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14997CE028D77DE2FA7AD64B /* Pods_SaleJuntadaTests.framework */; };
+		F43DB3122F5DD39902215D03 /* Pods_SaleJuntada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A21B8DD83B9AABFBA479AFA /* Pods-SaleJuntadaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntadaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntadaTests/Pods-SaleJuntadaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A81E9C0578941E2DED7603A /* Pods-SaleJuntadaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntadaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntadaTests/Pods-SaleJuntadaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		14997CE028D77DE2FA7AD64B /* Pods_SaleJuntadaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleJuntadaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5FE7D922763A9800920517 /* SaleJuntada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaleJuntada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5FE7DC22763A9800920517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5FE7E122763A9800920517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		2A5FE7F022763A9900920517 /* SaleJuntadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaleJuntadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5FE7F422763A9900920517 /* SaleJuntadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleJuntadaTests.swift; sourceTree = "<group>"; };
 		2A5FE7F622763A9900920517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB38C50C7EC3EE407CF5F7F5 /* Pods-SaleJuntada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE87B52A4F4F5272F7C88D3 /* Pods-SaleJuntada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.release.xcconfig"; sourceTree = "<group>"; };
+		FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleJuntada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43DB3122F5DD39902215D03 /* Pods_SaleJuntada.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95212567010BFA3DD9E16661 /* Pods_SaleJuntadaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				2A5FE7DB22763A9800920517 /* SaleJuntada */,
 				2A5FE7F322763A9900920517 /* SaleJuntadaTests */,
 				2A5FE7DA22763A9800920517 /* Products */,
+				8313B6E6EB8E957039067B4E /* Pods */,
+				D54053C6DF1EFAB7FA8ED48D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = SaleJuntadaTests;
 			sourceTree = "<group>";
 		};
+		8313B6E6EB8E957039067B4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB38C50C7EC3EE407CF5F7F5 /* Pods-SaleJuntada.debug.xcconfig */,
+				EEE87B52A4F4F5272F7C88D3 /* Pods-SaleJuntada.release.xcconfig */,
+				0A81E9C0578941E2DED7603A /* Pods-SaleJuntadaTests.debug.xcconfig */,
+				0A21B8DD83B9AABFBA479AFA /* Pods-SaleJuntadaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D54053C6DF1EFAB7FA8ED48D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */,
+				14997CE028D77DE2FA7AD64B /* Pods_SaleJuntadaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +135,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5FE7F922763A9900920517 /* Build configuration list for PBXNativeTarget "SaleJuntada" */;
 			buildPhases = (
+				F9B85D5D42A0A457CB6F5870 /* [CP] Check Pods Manifest.lock */,
 				2A5FE7D522763A9800920517 /* Sources */,
 				2A5FE7D622763A9800920517 /* Frameworks */,
 				2A5FE7D722763A9800920517 /* Resources */,
 				2A5FE7FF22763B4A00920517 /* SwiftLint */,
+				211FACD67C86E691F0A6C3A2 /* [CP] Embed Pods Frameworks */,
+				90F59B88F9ABE128C023D5EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5FE7FC22763A9900920517 /* Build configuration list for PBXNativeTarget "SaleJuntadaTests" */;
 			buildPhases = (
+				D7158EF221C6B987A745F36E /* [CP] Check Pods Manifest.lock */,
 				2A5FE7EC22763A9900920517 /* Sources */,
 				2A5FE7ED22763A9900920517 /* Frameworks */,
 				2A5FE7EE22763A9900920517 /* Resources */,
+				A2A5092B9C24806CD541743A /* [CP] Embed Pods Frameworks */,
+				1670B057754F7C5A5121FE21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +232,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1670B057754F7C5A5121FE21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaleJuntadaTests/Pods-SaleJuntadaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		211FACD67C86E691F0A6C3A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Tagged/Tagged.framework",
+				"${BUILT_PRODUCTS_DIR}/TaggedMoney/TaggedMoney.framework",
+				"${BUILT_PRODUCTS_DIR}/TaggedTime/TaggedTime.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tagged.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaggedMoney.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaggedTime.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2A5FE7FF22763B4A00920517 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +294,88 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		90F59B88F9ABE128C023D5EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A5092B9C24806CD541743A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaleJuntadaTests/Pods-SaleJuntadaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7158EF221C6B987A745F36E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaleJuntadaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B85D5D42A0A457CB6F5870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaleJuntada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -380,6 +545,7 @@
 		};
 		2A5FE7FA22763A9900920517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB38C50C7EC3EE407CF5F7F5 /* Pods-SaleJuntada.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +564,7 @@
 		};
 		2A5FE7FB22763A9900920517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE87B52A4F4F5272F7C88D3 /* Pods-SaleJuntada.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +583,7 @@
 		};
 		2A5FE7FD22763A9900920517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A81E9C0578941E2DED7603A /* Pods-SaleJuntadaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -437,6 +605,7 @@
 		};
 		2A5FE7FE22763A9900920517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A21B8DD83B9AABFBA479AFA /* Pods-SaleJuntadaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
