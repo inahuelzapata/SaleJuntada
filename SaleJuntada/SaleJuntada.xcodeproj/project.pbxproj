@@ -13,6 +13,14 @@
 		2A5FE7E722763A9900920517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FE7E622763A9900920517 /* Assets.xcassets */; };
 		2A5FE7EA22763A9900920517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FE7E822763A9900920517 /* LaunchScreen.storyboard */; };
 		2A5FE7F522763A9900920517 /* SaleJuntadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE7F422763A9900920517 /* SaleJuntadaTests.swift */; };
+		2A5FE80B2276499700920517 /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE80A2276499700920517 /* AttributedText.swift */; };
+		2A5FE80E22764A0600920517 /* FontStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE80D22764A0600920517 /* FontStylable.swift */; };
+		2A5FE81022764A4800920517 /* FontDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE80F22764A4800920517 /* FontDescription.swift */; };
+		2A5FE81422764AFC00920517 /* String+Capitalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81322764AFC00920517 /* String+Capitalized.swift */; };
+		2A5FE81722764C4800920517 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81622764C4800920517 /* Meetup.swift */; };
+		2A5FE81B22764E0400920517 /* DefaultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81A22764E0400920517 /* DefaultError.swift */; };
+		2A5FE81E22764F4A00920517 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81D22764F4A00920517 /* ErrorHandler.swift */; };
+		2A5FE82022764F8700920517 /* ErrorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81F22764F8700920517 /* ErrorLogger.swift */; };
 		95212567010BFA3DD9E16661 /* Pods_SaleJuntadaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14997CE028D77DE2FA7AD64B /* Pods_SaleJuntadaTests.framework */; };
 		F43DB3122F5DD39902215D03 /* Pods_SaleJuntada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +49,14 @@
 		2A5FE7F022763A9900920517 /* SaleJuntadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaleJuntadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5FE7F422763A9900920517 /* SaleJuntadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleJuntadaTests.swift; sourceTree = "<group>"; };
 		2A5FE7F622763A9900920517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5FE80A2276499700920517 /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
+		2A5FE80D22764A0600920517 /* FontStylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStylable.swift; sourceTree = "<group>"; };
+		2A5FE80F22764A4800920517 /* FontDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDescription.swift; sourceTree = "<group>"; };
+		2A5FE81322764AFC00920517 /* String+Capitalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Capitalized.swift"; sourceTree = "<group>"; };
+		2A5FE81622764C4800920517 /* Meetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
+		2A5FE81A22764E0400920517 /* DefaultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultError.swift; sourceTree = "<group>"; };
+		2A5FE81D22764F4A00920517 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		2A5FE81F22764F8700920517 /* ErrorLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLogger.swift; sourceTree = "<group>"; };
 		DB38C50C7EC3EE407CF5F7F5 /* Pods-SaleJuntada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.debug.xcconfig"; sourceTree = "<group>"; };
 		EEE87B52A4F4F5272F7C88D3 /* Pods-SaleJuntada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.release.xcconfig"; sourceTree = "<group>"; };
 		FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleJuntada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,12 +105,11 @@
 		2A5FE7DB22763A9800920517 /* SaleJuntada */ = {
 			isa = PBXGroup;
 			children = (
-				2A5FE7DC22763A9800920517 /* AppDelegate.swift */,
-				2A5FE7E022763A9800920517 /* Main.storyboard */,
-				2A5FE7E622763A9900920517 /* Assets.xcassets */,
-				2A5FE7E822763A9900920517 /* LaunchScreen.storyboard */,
-				2A5FE7EB22763A9900920517 /* Info.plist */,
-				2A5FE7E322763A9800920517 /* SaleJuntada.xcdatamodeld */,
+				2A5FE804227645BB00920517 /* CrossFunctional */,
+				2A5FE8002276451500920517 /* Domain */,
+				2A5FE803227645B500920517 /* Error */,
+				2A5FE802227645AB00920517 /* Feature */,
+				2A5FE8012276451D00920517 /* Resources */,
 			);
 			path = SaleJuntada;
 			sourceTree = "<group>";
@@ -106,6 +121,135 @@
 				2A5FE7F622763A9900920517 /* Info.plist */,
 			);
 			path = SaleJuntadaTests;
+			sourceTree = "<group>";
+		};
+		2A5FE8002276451500920517 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81522764BCF00920517 /* Meetup */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2A5FE8012276451D00920517 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE7E622763A9900920517 /* Assets.xcassets */,
+				2A5FE7EB22763A9900920517 /* Info.plist */,
+				2A5FE805227645D400920517 /* AppDelegate */,
+				2A5FE806227645EC00920517 /* CoreData */,
+				2A5FE8072276460100920517 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A5FE802227645AB00920517 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		2A5FE803227645B500920517 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81922764DA600920517 /* Domain */,
+				2A5FE81822764DA100920517 /* Handler */,
+				2A5FE81C22764E9600920517 /* Logger */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		2A5FE804227645BB00920517 /* CrossFunctional */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81122764AE100920517 /* Extensions */,
+				2A5FE8092276496D00920517 /* TextStylable */,
+			);
+			path = CrossFunctional;
+			sourceTree = "<group>";
+		};
+		2A5FE805227645D400920517 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE7DC22763A9800920517 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2A5FE806227645EC00920517 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE7E322763A9800920517 /* SaleJuntada.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		2A5FE8072276460100920517 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE7E822763A9900920517 /* LaunchScreen.storyboard */,
+				2A5FE7E022763A9800920517 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A5FE8092276496D00920517 /* TextStylable */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE80A2276499700920517 /* AttributedText.swift */,
+				2A5FE80D22764A0600920517 /* FontStylable.swift */,
+				2A5FE80F22764A4800920517 /* FontDescription.swift */,
+			);
+			path = TextStylable;
+			sourceTree = "<group>";
+		};
+		2A5FE81122764AE100920517 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81222764AEA00920517 /* String */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A5FE81222764AEA00920517 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81322764AFC00920517 /* String+Capitalized.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		2A5FE81522764BCF00920517 /* Meetup */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81622764C4800920517 /* Meetup.swift */,
+			);
+			path = Meetup;
+			sourceTree = "<group>";
+		};
+		2A5FE81822764DA100920517 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81D22764F4A00920517 /* ErrorHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		2A5FE81922764DA600920517 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81A22764E0400920517 /* DefaultError.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2A5FE81C22764E9600920517 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE81F22764F8700920517 /* ErrorLogger.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 		8313B6E6EB8E957039067B4E /* Pods */ = {
@@ -384,6 +528,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5FE82022764F8700920517 /* ErrorLogger.swift in Sources */,
+				2A5FE80E22764A0600920517 /* FontStylable.swift in Sources */,
+				2A5FE81422764AFC00920517 /* String+Capitalized.swift in Sources */,
+				2A5FE81022764A4800920517 /* FontDescription.swift in Sources */,
+				2A5FE80B2276499700920517 /* AttributedText.swift in Sources */,
+				2A5FE81B22764E0400920517 /* DefaultError.swift in Sources */,
+				2A5FE81722764C4800920517 /* Meetup.swift in Sources */,
+				2A5FE81E22764F4A00920517 /* ErrorHandler.swift in Sources */,
 				2A5FE7E522763A9800920517 /* SaleJuntada.xcdatamodeld in Sources */,
 				2A5FE7DD22763A9800920517 /* AppDelegate.swift in Sources */,
 			);
@@ -550,7 +702,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M825Z92F22;
-				INFOPLIST_FILE = SaleJuntada/Info.plist;
+				INFOPLIST_FILE = SaleJuntada/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,7 +721,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M825Z92F22;
-				INFOPLIST_FILE = SaleJuntada/Info.plist;
+				INFOPLIST_FILE = SaleJuntada/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
