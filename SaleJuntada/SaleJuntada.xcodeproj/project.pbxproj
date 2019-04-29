@@ -21,6 +21,7 @@
 		2A5FE81B22764E0400920517 /* DefaultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81A22764E0400920517 /* DefaultError.swift */; };
 		2A5FE81E22764F4A00920517 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81D22764F4A00920517 /* ErrorHandler.swift */; };
 		2A5FE82022764F8700920517 /* ErrorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE81F22764F8700920517 /* ErrorLogger.swift */; };
+		2A5FE823227670B000920517 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE822227670B000920517 /* User.swift */; };
 		95212567010BFA3DD9E16661 /* Pods_SaleJuntadaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14997CE028D77DE2FA7AD64B /* Pods_SaleJuntadaTests.framework */; };
 		F43DB3122F5DD39902215D03 /* Pods_SaleJuntada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		2A5FE81A22764E0400920517 /* DefaultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultError.swift; sourceTree = "<group>"; };
 		2A5FE81D22764F4A00920517 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		2A5FE81F22764F8700920517 /* ErrorLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLogger.swift; sourceTree = "<group>"; };
+		2A5FE822227670B000920517 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DB38C50C7EC3EE407CF5F7F5 /* Pods-SaleJuntada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.debug.xcconfig"; sourceTree = "<group>"; };
 		EEE87B52A4F4F5272F7C88D3 /* Pods-SaleJuntada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleJuntada.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaleJuntada/Pods-SaleJuntada.release.xcconfig"; sourceTree = "<group>"; };
 		FAB2B294E307FFD39CEF371D /* Pods_SaleJuntada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleJuntada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 		2A5FE8002276451500920517 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				2A5FE8212276709400920517 /* User */,
 				2A5FE81522764BCF00920517 /* Meetup */,
 			);
 			path = Domain;
@@ -250,6 +253,14 @@
 				2A5FE81F22764F8700920517 /* ErrorLogger.swift */,
 			);
 			path = Logger;
+			sourceTree = "<group>";
+		};
+		2A5FE8212276709400920517 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE822227670B000920517 /* User.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		8313B6E6EB8E957039067B4E /* Pods */ = {
@@ -538,6 +549,7 @@
 				2A5FE81E22764F4A00920517 /* ErrorHandler.swift in Sources */,
 				2A5FE7E522763A9800920517 /* SaleJuntada.xcdatamodeld in Sources */,
 				2A5FE7DD22763A9800920517 /* AppDelegate.swift in Sources */,
+				2A5FE823227670B000920517 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
